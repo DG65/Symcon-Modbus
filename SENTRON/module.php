@@ -25,6 +25,6 @@ class SENTRON extends BGETech
     const PREFIX = 'SENTRON';
 
     public static $Variables = [
-        ['Total active energy', VARIABLETYPE_FLOAT, 'Electricity', 18, 3, 2, true]
+        ['Total active energy', VARIABLETYPE_FLOAT, 'Electricity', 18, 2, 2, true]
     ];
 }
