@@ -20,13 +20,15 @@ require_once __DIR__ . '/../libs/BGETechModule.php';  // diverse Klassen
  * SDM630 ist die Klasse für die SDM630 ModBus Energie-Zähler der Firma B+G E-Tech
  * Erweitert BGETech.
  */
-class SDM630 extends BGETech
+class SENTRON extends BGETech
 {
     const PREFIX = 'SDM630';
 
     public static $Variables = [
-        ['Voltage L1', VARIABLETYPE_FLOAT, 'Volt.230', 0x0000, 4, 2, true],
-        ['Voltage L2', VARIABLETYPE_FLOAT, 'Volt.230', 0x0002, 4, 2, true],
+        ['Voltage L1', VARIABLETYPE_FLOAT, 'Volt.230', 1, 4, 2, true],
+        ['Voltage L2', VARIABLETYPE_FLOAT, 'Volt.230', 0x0002, 4, 2, true]
+
+/*
         ['Voltage L3', VARIABLETYPE_FLOAT, 'Volt.230', 0x0004, 4, 2, true],
         ['Current L1', VARIABLETYPE_FLOAT, 'Ampere', 0x0006, 4, 2, true],
         ['Current L2', VARIABLETYPE_FLOAT, 'Ampere', 0x0008, 4, 2, true],
@@ -93,5 +95,7 @@ class SDM630 extends BGETech
         ['L1 total reactive energy', VARIABLETYPE_FLOAT, 'kVArh', 0x0178, 4, 2, true],
         ['L2 total reactive energy', VARIABLETYPE_FLOAT, 'kVArh', 0x017A, 4, 2, true],
         ['L3 total reactive energy', VARIABLETYPE_FLOAT, 'kVArh', 0x017C, 4, 2, true]
+*/
+
     ];
 }
