@@ -22,7 +22,7 @@ require_once __DIR__ . '/../libs/BGETechModule.php';  // diverse Klassen
  */
 class SENTRON extends BGETech
 {
-    const PREFIX = 'SDM630';
+    const PREFIX = 'SENTRON';
 
     public static $Variables = [
         ['Voltage L1', VARIABLETYPE_FLOAT, 'Volt.230', 1, 4, 2, true],
