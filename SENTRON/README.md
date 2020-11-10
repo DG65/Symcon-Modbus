@@ -6,7 +6,7 @@
 [![Run Tests](https://github.com/Nall-chan/BGETech/workflows/Run%20Tests/badge.svg)](https://github.com/Nall-chan/BGETech/actions)  
 
 
-# DRS 458
+# SENTRON
 
 ## Inhaltsverzeichnis <!-- omit in toc -->
 
@@ -29,7 +29,7 @@ Zusätzlich können mehrere Zähler auf einem physikalischen RS485-Bus betrieben
 ## 2. Voraussetzungen
 
  - IPS 5.1 oder höher  
- - DRS 458 Zähler mit 'ModBus-Interface 
+ - SENTRON PAC2200 Zähler mit 'ModBus-Interface 
  - physikalisches RS485 Interface für die Zähler  
 
 ## 3. Software-Installation

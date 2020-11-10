@@ -3,28 +3,28 @@
 declare(strict_types=1);
 
 /*
- * @addtogroup bgetech
+ * @addtogroup Siemens
  * @{
  *
- * @package       BGETech
+ * @package       Siemens
  * @file          module.php
- * @author        Michael Tröger <micha@nall-chan.net>
+ * @author        Dietmar Gureth
  * @copyright     2019 Michael Tröger
  * @license       https://creativecommons.org/licenses/by-nc-sa/4.0/ CC BY-NC-SA 4.0
- * @version       3.00
+ * @version       1.00
  *
  */
 require_once __DIR__ . '/../libs/BGETechModule.php';  // diverse Klassen
 
 /**
- * DRS458 ist die Klasse für die DRS458 ModBus Energie-Zähler der Firma B+G E-Tech
- * Erweitert BGETech.
+ * SENTRON ist die Klasse für die SENTRON ModBus Energie-Zähler der Firma Siemens
+ * Erweitert Siemens.
  */
-class DRS458 extends BGETech
+class SENTRON extends BGETech
 {
-    const PREFIX = 'DRS458';
+    const PREFIX = 'SENTRON';
 
     public static $Variables = [
-        ['Total active energy', VARIABLETYPE_FLOAT, 'Electricity', 0x0000, 3, 2, true]
+        ['Total active energy', VARIABLETYPE_FLOAT, 'Electricity', 18, 3, 2, true]
     ];
 }
