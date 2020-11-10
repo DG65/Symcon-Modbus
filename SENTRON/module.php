@@ -85,7 +85,7 @@ class SENTRON extends BGETech
         ['Line 2 to line 3 voltage THD', VARIABLETYPE_FLOAT, 'Intensity.F', 0x0150, 4, 2, true],
         ['Line 3 to line 1 voltage THD', VARIABLETYPE_FLOAT, 'Intensity.F', 0x0152, 4, 2, true],
         ['Average line to line voltage THD', VARIABLETYPE_FLOAT, 'Intensity.F', 0x0154, 4, 2, true],
-        ['Total active energy', VARIABLETYPE_FLOAT, 'Electricity', 801, 4, 2, true],
+        ['Total active energy', VARIABLETYPE_FLOAT, 'Electricity', 801, 4, 4, true],
         ['Total reactive energy', VARIABLETYPE_FLOAT, 'kVArh', 0x0158, 4, 2, true],
         ['L1 total active energy', VARIABLETYPE_FLOAT, 'Electricity', 0x0166, 4, 2, true],
         ['L2 total active energy', VARIABLETYPE_FLOAT, 'Electricity', 0x0168, 4, 2, true],
